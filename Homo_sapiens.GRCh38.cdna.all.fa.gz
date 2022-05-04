@@ -1,19 +1,41 @@
->ENST00000631435.1 cdna chromosome:GRCh38:CHR_HSCHR7_2_CTG6:142847306:142847317:1 gene:ENSG00000282253.1 gene_biotype:TR_D_gene transcript_biotype:TR_D_gene gene_symbol:TRBD1 description:T cell receptor beta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12158]
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | wc -l
+6537490
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | wc -c     bytes
+432412549
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | wc -m     chars
+432412549
+
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | wc         word
+9110262
+
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | grep '>' | wc -l
+204563
+
+$ zcat Homo_sapiens.GRCh38.cdna.all.fa.gz | grep 'HGNC' | wc -l
+195569
+
+>ENST00000631435.1 cdna chromosome:GRCh38:CHR_HSCHR7_2_CTG6:142847306:142847317:1 gene:ENSG00000282253.1 gene_biotype:TR_D_gene 
+transcript_biotype:TR_D_gene gene_symbol:TRBD1 description:T cell receptor beta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12158]
 GGGACAGGGGGC
->ENST00000415118.1 cdna chromosome:GRCh38:14:22438547:22438554:1 gene:ENSG00000223997.1 gene_biotype:TR_D_gene transcript_biotype:TR_D_gene gene_symbol:TRDD1 description:T cell receptor delta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12254]
+>ENST00000415118.1 cdna chromosome:GRCh38:14:22438547:22438554:1 gene:ENSG00000223997.1 gene_biotype:TR_D_gene 
+transcript_biotype:TR_D_gene gene_symbol:TRDD1 description:T cell receptor delta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12254]
 GAAATAGT
->ENST00000448914.1 cdna chromosome:GRCh38:14:22449113:22449125:1 gene:ENSG00000228985.1 gene_biotype:TR_D_gene transcript_biotype:TR_D_gene gene_symbol:TRDD3 description:T cell receptor delta diversity 3 [Source:HGNC Symbol;Acc:HGNC:12256]
+>ENST00000448914.1 cdna chromosome:GRCh38:14:22449113:22449125:1 gene:ENSG00000228985.1 gene_biotype:TR_D_gene 
+transcript_biotype:TR_D_gene gene_symbol:TRDD3 description:T cell receptor delta diversity 3 [Source:HGNC Symbol;Acc:HGNC:12256]
 ACTGGGGGATACG
->ENST00000434970.2 cdna chromosome:GRCh38:14:22439007:22439015:1 gene:ENSG00000237235.2 gene_biotype:TR_D_gene transcript_biotype:TR_D_gene gene_symbol:TRDD2 description:T cell receptor delta diversity 2 [Source:HGNC Symbol;Acc:HGNC:12255]
+>ENST00000434970.2 cdna chromosome:GRCh38:14:22439007:22439015:1 gene:ENSG00000237235.2 gene_biotype:TR_D_gene 
+transcript_biotype:TR_D_gene gene_symbol:TRDD2 description:T cell receptor delta diversity 2 [Source:HGNC Symbol;Acc:HGNC:12255]
 CCTTCCTAC
->ENST00000632684.1 cdna chromosome:GRCh38:7:142786213:142786224:1 gene:ENSG00000282431.1 gene_biotype:TR_D_gene transcript_biotype:TR_D_gene gene_symbol:TRBD1 description:T cell receptor beta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12158]
+>ENST00000632684.1 cdna chromosome:GRCh38:7:142786213:142786224:1 gene:ENSG00000282431.1 gene_biotype:TR_D_gene 
+transcript_biotype:TR_D_gene gene_symbol:TRBD1 description:T cell receptor beta diversity 1 [Source:HGNC Symbol;Acc:HGNC:12158]
 .....
 GGCAGATCCTGGGACAGGGCCCGGAGCTTCTGGTTCAATTTCAGGATGAGAGTGTAGTAG
 ATGATTCACAGTTGCCTAAGGATCGATTTTCTGCAGAGAGGCTCAAAGGAGTAGACTCCA
 CTCTCAAGATCCAGCCTGCAGAGCTTGGGGACTCGGCCATGTATCTCTGTGCCAGCAGCT
 TAGC
          10        20        30        40        50         60
->ENST00000633265.1 cdna chromosome:GRCh38:CHR_HSCHR7_2_CTG6:142513848:142514385:1 gene:ENSG00000282704.1 gene_biotype:TR_V_gene transcript_biotype:TR_V_gene gene_symbol:TRBV7-6 description:T cell receptor beta variable 7-6 [Source:HGNC Symbol;Acc:HGNC:12240]
+>ENST00000633265.1 cdna chromosome:GRCh38:CHR_HSCHR7_2_CTG6:142513848:142514385:1 gene:ENSG00000282704.1 gene_biotype:TR_V_gene 
+transcript_biotype:TR_V_gene gene_symbol:TRBV7-6 description:T cell receptor beta variable 7-6 [Source:HGNC Symbol;Acc:HGNC:12240]
 AGTGACACTGATCTGGTAAAGCCCTCATCCTGGCCTGACCCTGCCATGGGCACCAGTCTC
 CTATGCTGGGTGGTCCTGGGTTTCCTAGGGACAGATCACACAGGTGCTGGAGTCTCCCAG
 TCTCCCAGGTACAAAGTCACAAAGAGGGGACAGGATGTAGCTCTCAGGTGTGATCCAATT
@@ -23,7 +45,8 @@ GCAGAGAGGCCTGAGGGATCCGTCTCCACTCTGACGATCCAGCGCACAGAGCAGCGGGAC
 TCGGCCATGTATCGCTGTGCCAGCAGCTTAGC
          10        20        30        40        50         60
 .....
-1 gene:ENSG00000256553.1 gene_biotype:TR_V_gene transcript_biotype:TR_V_gene gene_symbol:TRAV1-2 description:T cell receptor alpha variable 1-2 [Source:HGNC Symbol;Acc:HGNC:12102]
+1 gene:ENSG00000256553.1 gene_biotype:TR_V_gene transcript_biotype:TR_V_gene gene_symbol:TRAV1-2 
+description:T cell receptor alpha variable 1-2 [Source:HGNC Symbol;Acc:HGNC:12102]
 CCCACATGAAGTGTCTACCTTCTGCAGACTCCAATGGCTCAGGAACTGGGAATGCAGTGC
 CAGGCTCGTGGTATCCTGCAGCAGATGTGGGGAGTTTTCCTTCTTTATGTTTCCATGAAG
 ATGGGAGGCACTACAGGACAAAACATTGACCAGCCCACTGAGATGACAGCTACGGAAGGT
@@ -56,7 +79,9 @@ TATCTGCTTTTGCCACCTGCTCTTAATCCTGTGGTATATGGAGTTAAGACCAAACAGATC
 CGTAAAAGAGTTGTCAGGGTGTTTCAAAGTGGGCAGGAAATGGGCATCAAGGCATCTGAG
 TGA
          10        20        30        40        50         60
->ENST00000527486.2 cdna chromosome:GRCh38:11:56971050:56971979:1 gene:ENSG00000181282.5 gene_biotype:polymorphic_pseudogene transcript_biotype:polymorphic_pseudogene gene_symbol:OR5AK3P description:olfactory receptor family 5 subfamily AK member 3 pseudogene [Source:HGNC Symbol;Acc:HGNC:15252]
+>ENST00000527486.2 cdna chromosome:GRCh38:11:56971050:56971979:1 gene:ENSG00000181282.5 gene_biotype:polymorphic_pseudogene 
+transcript_biotype:polymorphic_pseudogene gene_symbol:OR5AK3P 
+description:olfactory receptor family 5 subfamily AK member 3 pseudogene [Source:HGNC Symbol;Acc:HGNC:15252]
 ATGGGTCGAGGAAACAGCACTGAAGTGACTGAATTCCATCTTCTGGGATTTGGTGTCCAA
 CACGAATTTCAGCATGTCCTTTTCATTGTACTTCTTCTTATCTATGTGACCTCCCTGATA
 GGAAATATTGGAATGATCTTACTCATCAAGACCGATTCCAGACTTCAAACACCCATGTAC
@@ -76,7 +101,8 @@ TTAAAAGTGATAGGAAAAAAGTTTTGTTAA
          10        20        30        40        50         60
 ....
 
->ENST00000390381.3 cdna chromosome:GRCh38:7:142320677:142321544:1 gene:ENSG00000211734.3 gene_biotype:TR_V_gene transcript_biotype:TR_V_gene gene_symbol:TRBV5-1 description:T cell receptor beta variable 5-1 [Source:HGNC Symbol;Acc:HGNC:12218]
+>ENST00000390381.3 cdna chromosome:GRCh38:7:142320677:142321544:1 gene:ENSG00000211734.3 gene_biotype:TR_V_gene 
+transcript_biotype:TR_V_gene gene_symbol:TRBV5-1 description:T cell receptor beta variable 5-1 [Source:HGNC Symbol;Acc:HGNC:12218]
 CTCAGAGGACCAGTATCCCTCACAGGGTGACACCTGACCAGCTCTGTCCCACCTGGCCAT
 GGGCTCCAGGTACCTCTGATGGGAAGACCTTTGTCTCTTGGGAACAAGTGAATCCTTGGC
 ACAGGCCCAGTGGATTCTGCTGTGCAGAACAGAGAGCAGTGGACCTCAGGAGGCCTGCAA
