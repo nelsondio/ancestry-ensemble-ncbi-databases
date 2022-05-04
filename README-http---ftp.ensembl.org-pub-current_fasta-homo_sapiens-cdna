@@ -1,4 +1,4 @@
-#### README ####
+#  README ####
 
 IMPORTANT: Please note you can download subsets of data via the
 BioMart data mining tool.
@@ -8,7 +8,8 @@ See https://www.ensembl.org/info/data/biomart/ for more information.
 Fasta cDNA dumps
 #################
 
-These files hold the cDNA sequences corresponding to Ensembl genes,
+
+## These files hold the cDNA sequences corresponding to Ensembl genes,
 excluding ncRNA genes, which are in a separate 'ncrna' Fasta file.
 cDNA consists of transcript sequences for actual and possible
 genes, including pseudogenes, NMD and the like. See the file names 
@@ -16,10 +17,11 @@ explanation below for different subsets of both known and predicted
 transcripts.
 
 ------------
-FILE NAMES
+# FILE NAMES
 ------------
-The files are consistently named following this pattern:
-<species>.<assembly>.<sequence type>.<status>.fa.gz
+## The files are consistently named following this pattern:
+
+### <species>.<assembly>.<sequence type>.<status>.fa.gz
 
 <species>: The systematic name of the species.
 <assembly>: The assembly build name.
