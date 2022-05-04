@@ -9,7 +9,7 @@ Fasta cDNA dumps
 #################
 
 
-## These files hold the cDNA sequences corresponding to Ensembl genes,
+These files hold the cDNA sequences corresponding to Ensembl genes,
 excluding ncRNA genes, which are in a separate 'ncrna' Fasta file.
 cDNA consists of transcript sequences for actual and possible
 genes, including pseudogenes, NMD and the like. See the file names 
@@ -19,9 +19,9 @@ transcripts.
 ------------
 # FILE NAMES
 ------------
-## The files are consistently named following this pattern:
+The files are consistently named following this pattern:
 
-### <species>.<assembly>.<sequence type>.<status>.fa.gz
+<species>.<assembly>.<sequence type>.<status>.fa.gz
 
 <species>: The systematic name of the species.
 <assembly>: The assembly build name.
